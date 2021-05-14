@@ -2,7 +2,8 @@
 .appVersion = "1342";
 DisplayStrings = (
 "/dotbelowcomb/Ohorndotbelow",
-"Ch/abrevehookabove ng/space v/ocircumflexdotbelow i/space quên/space mau./space"
+"Ch/abrevehookabove ng/space v/ocircumflexdotbelow i/space quên/space mau./space",
+"/nbspace"
 );
 classes = (
 {
@@ -191,7 +192,6 @@ logicalnot,
 guillemotleft,
 guillemotright,
 ellipsis,
-nonbreakingspace,
 endash,
 emdash,
 quotedblleft,
@@ -377,31 +377,35 @@ capHeight = 609;
 customParameters = (
 {
 name = typoAscender;
-value = 953;
+value = 726;
 },
 {
 name = typoDescender;
-value = -500;
+value = -401;
 },
 {
 name = typoLineGap;
 value = 0;
 },
 {
-name = winAscent;
-value = 953;
-},
-{
-name = winDescent;
-value = 500;
-},
-{
 name = hheaAscender;
-value = 953;
+value = 726;
 },
 {
 name = hheaDescender;
-value = -500;
+value = -401;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 810;
+},
+{
+name = winDescent;
+value = 420;
 },
 {
 name = strikeoutPosition;
@@ -1472,6 +1476,19 @@ width = 184;
 );
 note = space;
 unicode = 0020;
+},
+{
+glyphname = nbspace;
+lastChange = "2021-05-14 05:33:35 +0000";
+layers = (
+{
+layerId = "0B90A97B-D71D-49C5-8F31-ED3EF6E28084";
+width = 184;
+}
+);
+widthMetricsKey = space;
+note = nonbreakingspace;
+unicode = 00A0;
 },
 {
 glyphname = exclam;
@@ -19400,17 +19417,6 @@ width = 496;
 );
 note = ellipsis;
 unicode = 2026;
-},
-{
-glyphname = nonbreakingspace;
-layers = (
-{
-layerId = "0B90A97B-D71D-49C5-8F31-ED3EF6E28084";
-width = 255;
-}
-);
-note = nonbreakingspace;
-unicode = 00A0;
 },
 {
 glyphname = endash;
