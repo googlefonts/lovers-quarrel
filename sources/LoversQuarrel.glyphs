@@ -1395,14 +1395,14 @@ position = "{354, 339}";
 position = "{354, 274}";
 }
 );
+iconName = Light;
 id = "0B90A97B-D71D-49C5-8F31-ED3EF6E28084";
 userData = {
 GSOffsetHorizontal = 3;
 GSOffsetProportional = 1;
 GSOffsetVertical = 10;
 };
-weight = Light;
-weightValue = 300;
+weightValue = 400;
 widthValue = 5;
 xHeight = 274;
 }
@@ -34313,21 +34313,11 @@ width = 370;
 );
 instances = (
 {
-customParameters = (
-{
-name = postscriptFullName;
-value = LoversQuarrelROB;
-},
-{
-name = postscriptFontName;
-value = LoversQuarrelROB;
-}
-);
+interpolationWeight = 400;
 instanceInterpolations = {
 "0B90A97B-D71D-49C5-8F31-ED3EF6E28084" = 1;
 };
 name = Regular;
-weightClass = Light;
 }
 );
 kerning = {
