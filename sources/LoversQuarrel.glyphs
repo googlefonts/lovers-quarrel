@@ -1,5 +1,5 @@
 {
-.appVersion = "1356";
+.appVersion = "1342";
 DisplayStrings = (
 "!\"#$%&'()*+,-.//0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[/backslash ]^`abcdefghijklmnopqrstuvwxyz{|}~/dagger o354°120¢/euro £§/bullet ¶ß®©Nhung/trademark ´¨ÆØ±2012¥/mu ªºæ¿¡¬/ellipsis/endash/emdash/quotedblleft/quotedblright/quoteleft/quoteright/daggerdbl/quotesinglbase/quotedblbase/perthousand/circumflex/tilde ¯¸¦/minus ×¹²³½¼¾/RS/US/notequal/infinity/lessequal/greaterequal/partialdiff/pi/approxequal/lozenge/fraction/apple",
 "/Ocircumflexacute",
@@ -32398,6 +32398,107 @@ note = Delta;
 unicode = 2206;
 },
 {
+color = 4;
+glyphname = micro;
+lastChange = "2021-05-21 04:38:24 +0000";
+layers = (
+{
+layerId = "0B90A97B-D71D-49C5-8F31-ED3EF6E28084";
+paths = (
+{
+closed = 1;
+nodes = (
+"-76.333 -243 OFFCURVE",
+"-72.333 -242 OFFCURVE",
+"-71 -240 CURVE SMOOTH",
+"48 20 LINE",
+"57.333 2.667 OFFCURVE",
+"71.667 -6 OFFCURVE",
+"91 -6 CURVE SMOOTH",
+"127.667 -6 OFFCURVE",
+"167 27.667 OFFCURVE",
+"209 95 CURVE",
+"202.333 77.667 OFFCURVE",
+"199 61.333 OFFCURVE",
+"199 46 CURVE SMOOTH",
+"199 10.667 OFFCURVE",
+"215 -7 OFFCURVE",
+"247 -7 CURVE SMOOTH",
+"289 -7 OFFCURVE",
+"333.667 45 OFFCURVE",
+"381 149 CURVE",
+"379 151 LINE",
+"374 151 LINE",
+"359.333 116.333 OFFCURVE",
+"343.667 87.333 OFFCURVE",
+"325 62 CURVE SMOOTH",
+"297 22 OFFCURVE",
+"271.667 2 OFFCURVE",
+"249 2 CURVE SMOOTH",
+"239 2 OFFCURVE",
+"234 8 OFFCURVE",
+"234 20 CURVE SMOOTH",
+"234 40 OFFCURVE",
+"255 91.667 OFFCURVE",
+"297 175 CURVE SMOOTH",
+"369 314 LINE",
+"367 315 LINE",
+"361 302.333 OFFCURVE",
+"351.333 296 OFFCURVE",
+"338 296 CURVE SMOOTH",
+"330 296 OFFCURVE",
+"322.333 298.333 OFFCURVE",
+"315 303 CURVE",
+"313 303 LINE",
+"279.667 237.667 OFFCURVE",
+"256.667 192.667 OFFCURVE",
+"242 166 CURVE SMOOTH",
+"182 58.667 OFFCURVE",
+"134.333 5 OFFCURVE",
+"99 5 CURVE SMOOTH",
+"83.667 5 OFFCURVE",
+"76 13.333 OFFCURVE",
+"76 30 CURVE SMOOTH",
+"76 59.333 OFFCURVE",
+"94 104.667 OFFCURVE",
+"130 166 CURVE SMOOTH",
+"148.667 196.667 OFFCURVE",
+"162.333 220.333 OFFCURVE",
+"173 239 CURVE SMOOTH",
+"194.333 277.667 OFFCURVE",
+"209.333 301.333 OFFCURVE",
+"218 310 CURVE",
+"216 312 LINE",
+"200.667 299.333 OFFCURVE",
+"186 293 OFFCURVE",
+"172 293 CURVE SMOOTH",
+"165.333 293 OFFCURVE",
+"160.333 294.333 OFFCURVE",
+"157 297 CURVE",
+"155 297 LINE",
+"109.667 217.667 OFFCURVE",
+"77.667 157.667 OFFCURVE",
+"59 117 CURVE SMOOTH",
+"-119 -233 LINE",
+"-120.333 -234.333 OFFCURVE",
+"-119 -235.667 OFFCURVE",
+"-115 -237 CURVE SMOOTH",
+"-107 -241 OFFCURVE",
+"-96.333 -243 OFFCURVE",
+"-83 -243 CURVE SMOOTH"
+);
+}
+);
+userData = {
+assembly = "PUSHW[ ]	/* 1 value pushed */\01210 \012CALL[ ]	/* CallFunction */\012PUSHW[ ]	/* 4 values pushed */\0124 952 33 14 \012CALL[ ]	/* CallFunction */\012PUSHW[ ]	/* 1 value pushed */\0124 \012SRP0[ ]	/* SetRefPoint0 */\012PUSHW[ ]	/* 2 values pushed */\01249 951 \012MIRP[10100]	/* MoveIndirectRelPt */\012PUSHW[ ]	/* 3 values pushed */\0126 4 49 \012SRP1[ ]	/* SetRefPoint1 */\012SRP2[ ]	/* SetRefPoint2 */\012IP[ ]	/* InterpolatePts */\012PUSHW[ ]	/* 3 values pushed */\01226 4 49 \012SRP1[ ]	/* SetRefPoint1 */\012SRP2[ ]	/* SetRefPoint2 */\012IP[ ]	/* InterpolatePts */\012NPUSHW[ ]	/* 5 values pushed */\01258 33 74 33 2 \012DELTAP2[ ]	/* DeltaExceptionP2 */\012NPUSHW[ ]	/* 21 values pushed */\012105 33 121 33 137 33 153 33 169 33 185 33 201 33 217 33 233 33 249 33 10 \012DELTAP1[ ]	/* DeltaExceptionP1 */\012NPUSHW[ ]	/* 7 values pushed */\0129 33 25 33 41 33 3 \012DELTAP2[ ]	/* DeltaExceptionP2 */\012SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */\012PUSHW[ ]	/* 1 value pushed */\01225 \012MDAP[1]	/* MoveDirectAbsPt */\012PUSHW[ ]	/* 1 value pushed */\01245 \012MDAP[1]	/* MoveDirectAbsPt */\012PUSHW[ ]	/* 1 value pushed */\01211 \012MDAP[1]	/* MoveDirectAbsPt */\012PUSHW[ ]	/* 1 value pushed */\01213 \012MDAP[1]	/* MoveDirectAbsPt */\012PUSHW[ ]	/* 1 value pushed */\01215 \012MDAP[1]	/* MoveDirectAbsPt */\012PUSHW[ ]	/* 3 values pushed */\0126 13 45 \012SRP1[ ]	/* SetRefPoint1 */\012SRP2[ ]	/* SetRefPoint2 */\012IP[ ]	/* InterpolatePts */\012PUSHW[ ]	/* 3 values pushed */\01210 13 45 \012SRP1[ ]	/* SetRefPoint1 */\012SRP2[ ]	/* SetRefPoint2 */\012IP[ ]	/* InterpolatePts */\012PUSHW[ ]	/* 3 values pushed */\01226 13 45 \012SRP1[ ]	/* SetRefPoint1 */\012SRP2[ ]	/* SetRefPoint2 */\012IP[ ]	/* InterpolatePts */\012PUSHW[ ]	/* 3 values pushed */\01246 13 45 \012SRP1[ ]	/* SetRefPoint1 */\012SRP2[ ]	/* SetRefPoint2 */\012IP[ ]	/* InterpolatePts */\012IUP[0]	/* InterpolateUntPts */\012IUP[1]	/* InterpolateUntPts */";
+};
+width = 299;
+}
+);
+note = mu;
+unicode = 00B5;
+},
+{
 glyphname = dieresiscomb;
 lastChange = "2021-05-11 10:31:01 +0000";
 layers = (
@@ -35976,5 +36077,5 @@ manufacturer = "Robert E. Leuschke";
 manufacturerURL = "http://www.typesetit.com";
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 1;
+versionMinor = 10;
 }
